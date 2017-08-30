@@ -167,6 +167,7 @@ function drapItem (item) {
       down: false,
    }
    item.addEventListener('touchstart', function (e) {
+     e.preventDefault()
      var touch = e.touches[0]
      // 保存初始手指位置
      startX = touch.pageX
