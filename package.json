@@ -4,8 +4,11 @@
   "description": "> 仿天天爱消除游戏javascript版本",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "browser-sync start --server ./ --files './**/*.*' "
   },
   "author": "huoqishi",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
 }

@@ -1,0 +1,28 @@
+.game-box {
+  position: relative;
+  user-select: none;
+}
+.game-item {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  background: #bc5929;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  z-index: 10;
+}
+.game-item:active {
+  /*font-size: 100px;*/
+  /*background-color: #000 !important;*/
+  opacity: 0.6;
+}
+.active {
+  z-index: 100;
+  transition: transform 0.3s;
+  border: 2px solid #ccc;
+  transform: scale(.8);
+}
