@@ -1,0 +1,11 @@
+{
+  "name": "craz3-match",
+  "version": "0.0.1",
+  "description": "> 仿天天爱消除游戏javascript版本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huoqishi",
+  "license": "MIT"
+}
