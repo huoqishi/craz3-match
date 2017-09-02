@@ -26,3 +26,8 @@
   border: 2px solid #ccc;
   transform: scale(.8);
 }
+/*消除时的动画*/
+.remove {
+  transition: all .6s;
+  transition: rotate(360deg)
+}

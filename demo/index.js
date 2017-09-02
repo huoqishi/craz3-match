@@ -61,10 +61,25 @@ function carz3Match () {
         console.log(x,y)
         if (itemLeft&&itemRight&&itemNow.dataset.index === itemLeft.dataset.index && itemNow.dataset.index === itemRight.dataset.index) {
            count += 1
+           // function animated (item) {
+           //   item.classList.add('remove')
+           // }
+           // animated(itemNow)
+           // animated(itemLeft)
+           // animated(itemRight)
+           // var dt = Date.now()
+           // while(Date.now() - dt < 800) {
+           // }
            // 清除三个元素
-           oBox.removeChild(itemNow)
-           oBox.removeChild(itemLeft)
-           oBox.removeChild(itemRight)
+             oBox.removeChild(itemNow)
+             oBox.removeChild(itemLeft)
+             oBox.removeChild(itemRight)
+           // setTimeout(function () {
+           //    // 清除三个元素
+           //   oBox.removeChild(itemNow)
+           //   oBox.removeChild(itemLeft)
+           //   oBox.removeChild(itemRight)
+           // }, 1000)
         }
         continue
       }

@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  height: 49px;
+  align-items: center;
+  background: rgb(66, 133, 244);
+  color: #fff;
+}
+.header img {
+  width: 24px;
+  padding: 0 16px 0;
+}
+.header img:active {
+  transform: scale(1.5);
+}
+
+.header .title{
+  margin: 0;
+  padding: 0 16px 0;
+  font-size: 18px;
+}

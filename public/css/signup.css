@@ -1,0 +1,66 @@
+ .header {
+  background: rgb(66, 133, 244) !important;
+ }
+ .signup {
+
+ }
+ .signup-top{
+  position: relative;
+  height: 100px;
+  /*background: rgb(51, 103, 214);*/
+  background: rgb(66, 133, 244);
+  color: #fff;
+ }
+ .signup-title {
+  position: absolute;
+  left: 23px;
+  bottom: 16px;
+ }
+ 
+ .signup-msg, .signup-msg2 {
+  box-sizing: border-box;
+  padding: 0 24px;
+ }
+ .signup-msg {
+   color: #676767;
+ }
+ .signup-msg2 {
+  color: #ccc;
+  font-size: 12;
+ }
+ .signup-form {
+  padding: 0 24px;
+ }
+ .signup-form input {
+  margin: 8px 0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  height: 40px;
+  line-height: 40px;
+ }
+ .signup-form button {
+  margin: 16px 0;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+  background: rgb(66, 133, 244);
+ }
+ 
+
+
+ /* <div class="signup">
+     <div class="signup-top">
+       <h3 class="signup-title">登陆骑士天下</h3>
+     </div>
+     <p class="signup-msg">在您的任意设备上登录 骑士帐号，即可获取您的好友、战斗记录、和其他相关信息设置。
+     </p>
+     <p class="signup-msg2">输入您的账号和密码</p>
+     <form>
+       <input type="text" placeholder="用户名/邮箱">
+       <input type="password" placeholder="密码">
+       <button>登陆</button>
+     </form>
+  </div>*/

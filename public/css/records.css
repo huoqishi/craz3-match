@@ -1,0 +1,36 @@
+.records {
+
+}
+
+.reco-chart{
+  /*position: relative;*/
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 200px;
+  color: #fff;
+  background: #f5f8f8;
+}
+.reco-chart-item {
+  background: #36913a;
+}
+.reco-chart-item div {
+  height: 0;
+  transition: all .8s;
+}
+.reco-list {
+  padding: 8px;
+}
+.reco-item {
+  line-height: 42px;
+  padding-left: 42px;
+    /*bed5c6*/
+  box-shadow: 1px 2px 3px #ccc
+}
+.reco-item span:nth-child(2) {
+  padding-left: 32px;
+}
+
+.reco-item:active {
+  box-shadow: 5px 2px 10px #bed5c6
+}
